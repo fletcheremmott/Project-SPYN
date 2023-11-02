@@ -18,10 +18,10 @@ while 1
     brick.MoveMotor('D', motor);
 
     %touch = brick.TouchPressed(1);
-    %color = brick.ColorCode(3);
+    color = brick.ColorCode(3);
     distance = brick.UltrasonicDist(4);
     
-    %{
+    
     if color == 5                                         
         disp('red');
         brick.StopMotor('AD', 'Brake');
@@ -36,7 +36,7 @@ while 1
         brick.MoveMotor('D', motor);
         pause(6);
     end
-    %}
+    
 
     if distance > threshold            
         pause(0.60);
