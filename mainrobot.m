@@ -32,7 +32,7 @@ while 1
         pause(0.5);
     end
     
-    if color == 2 || color == 3 
+    if color == 2 || color == 3 || color == 4
         brick.StopMotor('AD', 'Brake');
         run('Keytest.m');
         disp('blue/green');
