@@ -6,8 +6,8 @@ leftwheel = D
 rightwheeel = A
 lift = C
 %}
-rightTurn = -50;
-leftTurn = -50;
+rightTurn = -58;
+leftTurn = -52;
 motor = -40;
 threshold = 50;
 distance = 0;
